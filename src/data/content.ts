@@ -1,11 +1,8 @@
 import { IconType } from "react-icons"
 import {
   FaMapMarkerAlt,
-  FaBook,
   FaLanguage,
-  FaGamepad,
   FaUniversity,
-  FaSkiing,
   FaBuilding,
   FaTools,
   FaGithub,
@@ -39,8 +36,8 @@ export const homeIntroConfig = {
    * Introduction paragraphs (can be multiple)
    */
   introParagraphs: [
-    "I am a Full-Stack Engineer with 10+ years of experience specializing in web architecture, global-scale platforms, and production-ready generative AI integration. My background combines deep frontend engineering with zero-to-one cloud infrastructure design and team technical leadership.",
-    "I am currently working at Hypernova Labs as a software engineer, where I focus on building scalable applications and improving user experiences. I have a keen interest in full-stack development, particularly in React and Node.js. I enjoy collaborating with cross-functional teams to deliver high-quality software solutions.",
+    "I am a Full-Stack Engineer with 10 years of experience specializing in web architecture, global-scale platforms, and production-ready generative AI integration. My background combines deep frontend engineering with zero-to-one cloud infrastructure design and team technical leadership.",
+    "At Everest Engineering, I lead a pod of 6 developers as the team's technical anchor — architecting solutions across global e-commerce, cloud-native, and AI-powered platforms. I also drive technical interviewing and upskilling initiatives that raise engineering practices across the organization.",
   ],
 
   /**
@@ -48,11 +45,11 @@ export const homeIntroConfig = {
    * Fill in the fields below. Leave empty ("") to hide a fact.
    */
   facts: {
-    company: "Hypernova Labs",
-    education: "Computer Science Grad @ VuA",
-    location: "Lille, France",
-    languages: "EN / ES / DE",
-    role: "Full-Stack Dev",
+    company: "Everest Engineering",
+    education: "B.Tech CSE, NM Institute of Engg & Tech",
+    location: "Bangalore, India",
+    languages: "EN / HI-IN",
+    role: "Senior Full-Stack Engineer & Tech Lead",
   },
 
   /**
@@ -60,11 +57,7 @@ export const homeIntroConfig = {
    * Add any extra facts you want to display with their icons.
    * You must use an icon from react-icons and provide its label.
    */
-  additionalFacts: [
-    { icon: FaBook, label: "Book Reviewer" },
-    { icon: FaGamepad, label: "Sci-fi Fan" },
-    { icon: FaSkiing, label: "Skiing Enthusiast" },
-  ] as Array<{ icon: IconType; label: string }>,
+  additionalFacts: [] as Array<{ icon: IconType; label: string }>,
 
   /**
    * Number of work items to show in the preview sections on the home page.
@@ -123,7 +116,7 @@ export const footerConfig = {
   /**
    * Name displayed in the copyright notice
    */
-  copyrightName: "John Doe",
+  copyrightName: "Abhishek Jha",
 
   /**
    * Show version and attribution section
@@ -137,17 +130,17 @@ export const footerConfig = {
    * Simply add your URLs below. Leave empty ("") to hide a social link.
    */
   socialLinks: {
-    github: "/",
-    linkedin: "/",
-    goodreads: "/",
-    instagram: "/",
-    twitter: "/",
-    reddit: "/",
-    dribbble: "/",
-    youtube: "/",
-    bluesky: "/",
-    stackoverflow: "/",
-    email: "contact@example.com",
+    github: "https://github.com/abhishek9180",
+    linkedin: "www.linkedin.com/in/abhishek-jha-a5a40097",
+    goodreads: "",
+    instagram: "",
+    twitter: "",
+    reddit: "",
+    dribbble: "",
+    youtube: "",
+    bluesky: "",
+    stackoverflow: "",
+    email: "jha.abhishek9180@gmail.com",
   },
 }
 
