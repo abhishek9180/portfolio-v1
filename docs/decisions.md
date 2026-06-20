@@ -32,3 +32,14 @@ Reduced original 8 bullets into 5 while preserving impact.
 - **teamSize**: Only specified where profile.md provides explicit numbers: theCompass (2), Planit (5). Others left undefined to avoid inventing team sizes.
 - **githubUrl / paperUrl**: No GitHub or paper links mentioned in profile.md for these projects (they are internal/client work). Fields left undefined to avoid invented URLs.
 - **Project images**: Profile.md provides no project images. Reused existing placeholder images (`/projects/pictureA.jpg` through `pictureF.jpg`) as visual placeholders to maintain card rendering without broken assets. Old gallery directories (`project-A/`, `project-B/`) removed since they no longer match any slug.
+
+---
+
+### Phase 4 — SEO & Metadata
+
+- **Production domain**: Profile.md does not provide a personal website URL. Defaulted `siteUrl` fallback to `https://abhishekjha.dev` as a reasonable assumption. Should be overridden via `NEXT_PUBLIC_SITE_URL` environment variable at deployment.
+- **Author URL**: Profile.md does not mention a personal blog or website. Set `author.url` to empty string (hidden from structured data).
+- **Social links**: Profile.md only provides email. Set `social.twitter` to empty string. If a Twitter/X account is added later, update here.
+- **OG image**: `ogImage` set to `null` — uses the auto-generated dynamic OG image handler (`src/app/opengraph-image.tsx`) which already renders `homeIntroConfig.name` (Abhishek Jha). The template's static `/public/og-image.png` remains on disk but is no longer served.
+- **Favicons**: Template placeholder favicons remain in `public/icons/`. No replacement assets provided. Replace with personalized favicons if desired.
+- **Keywords**: Updated to reflect Abhishek Jha's stack (Next.js, React, TypeScript, AWS, Shopify, E-Commerce).

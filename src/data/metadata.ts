@@ -16,24 +16,37 @@ export const siteMetadata: SiteMetadata = {
   /**
    * Site title (shown in browser tabs and search results)
    */
-  title: "Next.js Developer Portfolio Template",
+  title: "Abhishek Jha — Senior Full-Stack Engineer & Technical Lead",
 
   /**
    * Site description (shown in search results and social media)
    */
   description:
-    "Developer portfolio showcasing projects, work experience, and technical blog posts. Built with Next.js, TypeScript, and Tailwind CSS.",
+    "Full-Stack Engineer with 10 years of experience specializing in web architecture, global-scale platforms, and production-ready generative AI integration.",
 
   /**
    * Keywords for SEO
    */
   keywords: [
-    "Developer",
-    "Software Engineer",
-    "Next.js",
+    "Abhishek Jha",
+    "Full-Stack Engineer",
+    "Tech Lead",
+    "Frontend Architecture",
     "React",
+    "Next.js",
+    "NestJS",
+    "Node.js",
+    "Python",
+    "OpenAI",
+    "Prompt Engineering",
+    "Agentic Workflows",
+    "System Design",
+    "Performance Optimization",
+    "CI/CD Pipelines",
     "TypeScript",
-    "Web Development",
+    "AWS",
+    "Shopify",
+    "E-Commerce",
     "Portfolio",
   ],
 
@@ -41,21 +54,21 @@ export const siteMetadata: SiteMetadata = {
    * Author information
    */
   author: {
-    name: "Alexandru Moraru",
-    url: "https://alexradumoraru.com",
+    name: "Abhishek Jha",
+    url: "",
   },
 
   /**
    * Base URL of your website (used for canonical URLs and Open Graph).
    * Set NEXT_PUBLIC_SITE_URL in your environment (e.g. .env.local) to override the default.
    */
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://nextjs-portofolio-website.vercel.app",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://abhishekjha.dev",
 
   /**
    * Social media handles
    */
   social: {
-    twitter: "@alexradumoraru",
+    twitter: "",
   },
 
   /**
@@ -65,7 +78,7 @@ export const siteMetadata: SiteMetadata = {
    *
    * Note: /blog, /projects, and /work always use dynamically generated OG images.
    */
-  ogImage: "/og-image.png",
+  ogImage: null,
 }
 
 /**
