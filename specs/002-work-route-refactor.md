@@ -13,7 +13,7 @@ This is a structural refactor only. The existing work experience content is alre
 Before implementation, read:
 
 - `AGENTS.md`
-- `specs/profile.md`
+- `specs/assets/profile.md`
 
 ---
 

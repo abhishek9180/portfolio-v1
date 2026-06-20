@@ -1,0 +1,41 @@
+---
+title: MakeUpMyRoom
+image: /projects/make-up-my-room/picture-1.jpg
+description: Mobile-first Progressive Web Application for hospitality workflow management with offline data caching and third-party enterprise system integration.
+startDate: 2021-06
+endDate: 2022-01
+techStack:
+  - Node.js
+  - NestJS
+  - React
+  - PWAs
+  - Data Caching
+teamSize: 4
+role: Full-Stack Developer
+paperUrl: https://www.everest.engineering/our-work-2/mumr
+---
+
+# Introduction
+
+[MakeUpMyRoom](https://makeupmyroom.com/) is a mobile-first Progressive Web Application built for the hospitality industry. It features advanced client-side data caching for offline capability and integrates with third-party enterprise systems including Oracle PMS and TigerTMS for task tracking and synchronization.
+
+## Key Capabilities
+
+- **Offline-First PWA**: Implemented advanced client-side data caching mechanisms enabling full offline functionality — housekeeping staff could log tasks without network connectivity and sync when back online.
+- **Enterprise Integration**: Built data synchronization pipelines that integrated task-tracking metrics with Oracle PMS and TigerTMS, ensuring accurate, real-time room status across systems.
+- **Mobile-First Design**: Designed the entire experience for mobile devices used by on-the-go hospitality staff, with intuitive touch interfaces and quick task workflows.
+
+## Technical Insights
+
+- **Backend**: Node.js with NestJS for a structured, maintainable API layer.
+- **Frontend**: React-based PWA with service workers and IndexedDB caching for offline resilience.
+- **Data Sync**: Custom synchronization engine that handled conflict resolution, retry logic, and incremental data transfer.
+
+## Challenges and Solutions
+
+- **Offline Reliability**: Hospitality environments have inconsistent connectivity. Implemented a queue-based sync mechanism with conflict resolution that seamlessly reconciled offline changes when connectivity was restored.
+- **Third-Party Integration**: Oracle PMS and TigerTMS have proprietary APIs with varying data models. Built an abstraction layer that normalized data between systems, making future integrations pluggable.
+
+## Impact
+
+Delivered a production-ready PWA that transformed hospitality workflow management. Staff could operate entirely offline, and the synchronization pipeline eliminated manual double-entry between housekeeping and property management systems.

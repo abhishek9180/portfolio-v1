@@ -1,0 +1,39 @@
+---
+title: Storygenie
+image: /projects/storygenie/picture-1.png
+description: AI-powered Atlassian Marketplace application that automates Epic and User Story generation with single-click Jira synchronization.
+startDate: 2023-05
+endDate: 2024-07
+techStack:
+  - OpenAI API
+  - React
+  - Jira API
+  - Prompt Engineering
+role: AI Engineer
+paperUrl: https://www.everest.engineering/our-work-2/storygenie
+---
+
+# Introduction
+
+[Storygenie](https://marketplace.atlassian.com/apps/1231501/storygenie) is a generative AI productivity application for the Atlassian Marketplace that automates Epic and User Story generation. It uses the OpenAI API with context-aware prompts and agentic automation workflows to perform complex product research, reducing manual product management overhead.
+
+## Key Capabilities
+
+- **Automated Story Generation**: Designed AI prompts that transform high-level product requirements into structured Epics and User Stories with acceptance criteria.
+- **Single-Click Jira Sync**: Built direct Jira API integration that creates, updates, and links issues with a single action — eliminating manual data entry.
+- **Context-Aware Research**: Developed agentic workflows that perform automated product research, competitor analysis, and requirement refinement before generating stories.
+
+## Technical Insights
+
+- **AI Integration**: OpenAI API with carefully engineered prompt structures that maintain context across multi-turn conversations.
+- **Frontend**: React interface for reviewing, editing, and approving AI-generated content before syncing to Jira.
+- **Jira Integration**: Direct API integration for bidirectional synchronization of issues, epics, and project metadata.
+
+## Challenges and Solutions
+
+- **Prompt Reliability**: LLM outputs can be inconsistent. Developed layered prompt strategies with validation steps and fallback mechanisms to ensure structured, usable output every time.
+- **Jira Schema Complexity**: Jira's project configuration varies wildly between instances. Built a flexible mapping layer that adapts to different custom field schemas and workflow states.
+
+## Impact
+
+Reduced manual product management overhead by automating Epic and User Story generation. The context-aware research workflows eliminated hours of manual competitor and requirements research per sprint.

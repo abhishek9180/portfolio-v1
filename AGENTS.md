@@ -89,6 +89,18 @@ Never silently change the intended meaning of profile data.
 7. Validate changes
 8. Summarize modified files
 
+## Routing Convention
+
+Whenever a section exposes detail pages (e.g., Work, Projects, Blog), use semantic, human-readable slugs derived from the entity name.
+
+Examples:
+
+- /work/quantiphi
+- /projects/portfolio-website
+- /blog/react-performance
+
+Avoid placeholder names, numeric identifiers, or inconsistent URL patterns unless explicitly required by the application.
+
 # Next.js: ALWAYS read docs before coding
 
 Before any Next.js work, find and read the relevant doc in `node_modules/next/dist/docs/`. Your training data is

@@ -1,0 +1,56 @@
+---
+title: Who Gives A Crap
+image: /projects/who-gives-a-crap/picture-1.webp
+description: A high-traffic global e-commerce platform serving 100k+ daily active users across US, UK, AU, CA, and EU markets, offering a wide range of eco-friendly products including kitchen towels, bathroom towels, garbage bags, and toilet paper. The platform features subscription purchasing, order tracking, and behavioral cross-sell modules.
+startDate: 2023-09
+endDate: 2026-06
+techStack:
+  - Shopify
+  - React
+  - Liquid
+  - GraphQL
+  - Web Components
+  - TailwindCSS
+  - Recharge
+  - CI/CD
+  - Playwright
+  - Calude
+  - Argos CI
+  - Currents.io
+teamSize: 4
+role: Senior Craftperson
+---
+
+# Introduction
+
+[Who Gives A Crap](https://whogivesacrap.org/) is a high-traffic global e-commerce platform serving over 100,000 daily active users (DAU) across the US, UK, AU, CA, and EU markets. The platform scales the distribution of eco-friendly household goods through a complex multi-region setup. As the Technical Lead, I engineered and optimized the platform's frontend architecture to handle peak traffic concurrency while maintaining a high-performance, seamless checkout experience.
+
+## Key Capabilities
+
+- **Product Catalog**: Upgraded and optimized category and product listing pages leveraging Shopify native function, GraphQL and custom Web Components, ensuring fast initial load times and smooth dynamic filtering for products.
+- **End-to-End Checkout Funnel**: Streamlined the entire conversion funnel from cart initialization to final multi-currency payment capture, minimizing friction points and reducing cart abandonment rates.
+- **Decoupled Cart Checkout**: Designed and developed a cart checkout drawer that natively handles on-the-fly subscription and discount management alongside existing legacy APIs.
+- **Cross-Sell**: Implemented cross-sell modules driven by user interest profiles, delivering a 1.3–2.0% checkout conversion lift and a 0.4–0.7% cross-sell increase.
+- **Campaign Marketing Integration**: Integrated specialized retention and growth marketing tools (Klaviyo) to deploy highly targeted, automated email/SMS campaigns synced with real-time customer lifecycle events.
+
+## Technical Insights
+
+- **Frontend Architecture**: Built using a modular hybrid framework consisting of React.js, Web Components, and Liquid templates within the Shopify ecosystem, ensuring rendering consistency and performance.
+- **Subscription Management**: Integrated the Recharge subscription ecosystem to manage automated recurring billing, user portal states, and subscription lifecycles.
+- **CI/CD**: Automated code quality gates, unit tests, automated E2E/visual test execution, and AI-assisted PR reviews using Coderabbit. Built in a custom mechanism allowing developers to safely stage and preview changes on any specific geographic market before production rollout.
+- **User Event Tracking & Analytics**: Implemented analytics tracking by upgrading the platform to Google Analytics 4 (GA4) and used Sentry for error tracking.
+
+## Challenges and Solutions
+
+- **Legacy Integration**: The existing platform relied on monolithic APIs, depricated third-party tools and depnedencies, outdated codebase. Modernized the codebase, automated deployment workfolow and backup architecture, robust CI checks to ensure code and application quality
+- **Data Tracking**: Standardized data tracking policies across markets. Integrated GA4 with Pandectes to uniformly enforce strict regional cookie consent guidelines and GDPR/CCPA data regulations.
+- **feature rollout**: Designed feature experimentation framework. Used Optimizely and Shopify targeted rollouts to safely deploy layout modifications to specific set of users or regions, mitigating the risk of wide-scale breakage.
+- **Cross-Market Consistency**: With 5 distinct markets, each having unique pricing, promotions, and regulations, built a config-driven component system that adapted per region.
+- **Technical Debt Cleanup**: Safely removed dead code, legacy tools, and unoptimized assets. Utilized Claude to validate code paths during refactoring, driving down application bundle sizes without introducing new issues.
+
+## Impact
+
+- The platform reliably serves 100k+ DAU across 5 markets. 
+- The behavioral cross-sell modules drove a 1.3–2.0% increase in checkout conversion and 0.4–0.7% in cross-sell revenue. 
+- The automated CI/CD workflow ensured smoother delivery and catch any issue before going to production
+- Improved development velocity and code quality through automated guardrails, completely eliminating the historical bottleneck of identifying critical regressions post-production.
