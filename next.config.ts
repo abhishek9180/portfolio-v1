@@ -16,12 +16,16 @@ const csp = [
   "upgrade-insecure-requests",
 ].join("; ")
 
+const isProd = process.env.NODE_ENV === "production"
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
+  basePath: isProd ? "/portfolio-v1" : "",
+  assetPrefix: isProd ? "/portfolio-v1/" : "",
   async headers() {
     return [
       {
