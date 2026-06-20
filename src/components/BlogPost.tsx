@@ -57,7 +57,7 @@ export default function BlogPost({ slug, title, summary, date, tags, readingTime
             <span className="flex items-center gap-1.5">
               <FaRegCalendarAlt className="w-3.5 h-3.5" />
               <time dateTime={date}>
-                {new Date(date).toLocaleDateString(undefined, {
+                {new Date(date).toLocaleDateString("en-US", {
                   year: "numeric",
                   month: "long",
                   day: "numeric",

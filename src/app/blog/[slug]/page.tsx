@@ -156,7 +156,7 @@ export default async function BlogPostPage(props: { params: pageParams }) {
       <div className="flex items-center gap-4 text-gray-500 mb-8">
         <span className="flex items-center gap-1.5">
           <FaRegCalendarAlt className="shrink-0" />
-          {new Date(post.date).toLocaleDateString(undefined, {
+          {new Date(post.date).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
             day: "numeric",
