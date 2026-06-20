@@ -53,17 +53,13 @@ export default function CertificationsSection() {
           const inner = (
             <>
               <div className="flex items-start justify-between gap-2">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  {cert.name}
-                </h3>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{cert.name}</h3>
                 {cert.credentialUrl && (
                   <FaExternalLinkAlt className="shrink-0 mt-1 w-3.5 h-3.5 text-accent-600 dark:text-accent-400 group-hover:text-accent-500 transition-colors" />
                 )}
               </div>
 
-              <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                {cert.organization}
-              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{cert.organization}</p>
 
               <div className="flex items-center gap-1.5 mt-3 text-xs text-gray-500 dark:text-gray-400">
                 <FaCalendarAlt className="w-3 h-3 shrink-0" />

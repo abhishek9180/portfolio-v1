@@ -116,8 +116,7 @@ export const certificationsConfig: Certification[] = [
     organization: "Google",
     issueDate: "2026-04",
     credentialId: "3UK4LEZ95KQJ",
-    credentialUrl:
-      "https://www.coursera.org/account/accomplishments/specialization/3UK4LEZ95KQJ",
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/3UK4LEZ95KQJ",
   },
   {
     name: "AWS Certified Cloud Practitioner",

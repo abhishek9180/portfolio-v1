@@ -77,6 +77,7 @@ _September 2016 – October 2018 | Pune, India_
 ---
 
 ### 📜 Certifications
+
 # Certifications
 
 ## Certification
@@ -107,7 +108,6 @@ Issue Date: 2023-05
 Expiration Date: 2026-05
 Credential ID:
 Credential URL: https://www.credly.com/badges/4db0bc12-4363-47b0-8cb7-e43f87ef90e7/linked_in_profile
-
 
 ---
 

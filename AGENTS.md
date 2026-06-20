@@ -1,4 +1,5 @@
 <!-- BEGIN:nextjs-agent-rules -->
+
 # Portfolio Agent Instructions
 
 ## Purpose
