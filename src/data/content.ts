@@ -87,6 +87,49 @@ export const homeIntroConfig = {
 }
 
 /**
+ * A certification entry shown in the Certifications section on the home page.
+ */
+export interface Certification {
+  name: string
+  organization: string
+  issueDate: string
+  expirationDate?: string
+  credentialId?: string
+  credentialUrl?: string
+}
+
+/**
+ * Professional certifications displayed on the home page.
+ * Each entry maps to a certification from profile.md.
+ */
+export const certificationsConfig: Certification[] = [
+  {
+    name: "AWS Certified AI Practitioner",
+    organization: "Amazon Web Services (AWS)",
+    issueDate: "2026-01",
+    expirationDate: "2029-01",
+    credentialUrl:
+      "https://www.credly.com/badges/553ece75-b6d1-40ec-b8c7-aa6c983ba646/linked_in_profile",
+  },
+  {
+    name: "Google AI",
+    organization: "Google",
+    issueDate: "2026-04",
+    credentialId: "3UK4LEZ95KQJ",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/3UK4LEZ95KQJ",
+  },
+  {
+    name: "AWS Certified Cloud Practitioner",
+    organization: "Amazon Web Services (AWS)",
+    issueDate: "2023-05",
+    expirationDate: "2026-05",
+    credentialUrl:
+      "https://www.credly.com/badges/4db0bc12-4363-47b0-8cb7-e43f87ef90e7/linked_in_profile",
+  },
+]
+
+/**
  * Configuration for pagination settings within the site.
  */
 export const paginationConfig = {

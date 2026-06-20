@@ -43,3 +43,14 @@ Reduced original 8 bullets into 5 while preserving impact.
 - **OG image**: `ogImage` set to `null` — uses the auto-generated dynamic OG image handler (`src/app/opengraph-image.tsx`) which already renders `homeIntroConfig.name` (Abhishek Jha). The template's static `/public/og-image.png` remains on disk but is no longer served.
 - **Favicons**: Template placeholder favicons remain in `public/icons/`. No replacement assets provided. Replace with personalized favicons if desired.
 - **Keywords**: Updated to reflect Abhishek Jha's stack (Next.js, React, TypeScript, AWS, Shopify, E-Commerce).
+
+---
+
+### Phase 5 — Certifications
+
+- **Third certification issuer**: Profile.md has a typo for AWS Cloud Practitioner — "Issuing Amazon Web Services (AWS)" instead of "Issuing Organization: Amazon Web Services (AWS)". Used the intended value "Amazon Web Services (AWS)".
+- **Badge images**: Profile.md provides no certification badge/logo images. Badge display omitted per spec ("if available").
+- **Empty credential IDs**: AWS AI Practitioner and AWS Cloud Practitioner have empty Credential ID fields in profile.md. Omitted from the data structure rather than displaying empty values.
+- **Card design**: Used a card layout (border + rounded + shadow) matching WorkItem's visual language. Cards are wrapped in `<a>` tags when credentialUrl exists, opened securely with `target="_blank" rel="noopener noreferrer"`.
+- **Grid layout**: 2-column grid on sm+ screens (3 items render as 2+1). Single column on mobile.
+- **Date formatting**: Profile.md uses YYYY-MM format; converted to "Month YYYY" for display to match the portfolio's date style (e.g., "January 2026").

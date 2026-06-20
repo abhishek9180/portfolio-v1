@@ -7,6 +7,7 @@ import {
   staggerItemVariants,
 } from "@/components/home/animations"
 import BlogPreview from "@/components/home/BlogPreview"
+import CertificationsSection from "@/components/home/CertificationsSection"
 import ProjectsPreview from "@/components/home/ProjectsPreview"
 import QuickFacts from "@/components/home/QuickFacts"
 import WorkPreview from "@/components/home/WorkPreview"
@@ -70,6 +71,7 @@ export default function HomeContent({ blog, work, projects }: HomeContentProps) 
         </motion.div>
 
         <QuickFacts />
+        <CertificationsSection />
         <WorkPreview work={work} />
         <ProjectsPreview projects={projects} />
         <BlogPreview blog={blog} />

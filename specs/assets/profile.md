@@ -77,10 +77,37 @@ _September 2016 – October 2018 | Pune, India_
 ---
 
 ### 📜 Certifications
+# Certifications
 
-- **AWS Certified AI Practitioner** | AWS (2025)
-- **Google AI Certified** | Google (2025)
-- **AWS Certified Cloud Practitioner** | AWS (2023)
+## Certification
+
+Name: AWS Certified AI Practitioner
+Issuing Organization: Amazon Web Services (AWS)
+Issue Date: 2026-01
+Expiration Date: 2029-01
+Credential ID:
+Credential URL: https://www.credly.com/badges/553ece75-b6d1-40ec-b8c7-aa6c983ba646/linked_in_profile
+
+---
+
+## Certification
+
+Name: Google AI
+Issuing Organization: Google
+Issue Date: 2026-04
+Expiration Date:
+Credential ID: 3UK4LEZ95KQJ
+Credential URL: https://www.coursera.org/account/accomplishments/specialization/3UK4LEZ95KQJ
+
+## Certification
+
+Name: AWS Certified Cloud Practitioner
+Issuing Amazon Web Services (AWS)
+Issue Date: 2023-05
+Expiration Date: 2026-05
+Credential ID:
+Credential URL: https://www.credly.com/badges/4db0bc12-4363-47b0-8cb7-e43f87ef90e7/linked_in_profile
+
 
 ---
 

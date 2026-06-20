@@ -18,6 +18,10 @@ const csp = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
   async headers() {
     return [
       {
