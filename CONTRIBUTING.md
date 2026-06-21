@@ -12,7 +12,7 @@ To get started, you can will need to follow the steps below.
 
 ### Prerequisites
 
-- Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+- Ensure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed on your machine.
 - Familiarity with Git and GitHub is recommended, as well as [Git](https://git-scm.com/) installed locally.
 - Knowledge of React, Next.js, and TypeScript will be helpful, since this project is built using these technologies.
 
@@ -41,7 +41,7 @@ To get started, you can will need to follow the steps below.
 6. Make sure your changes can be built and tested locally before submitting a pull request.
    To prepare a production build, and see whether there are any build errors, run:
    ```bash
-   npm run build
+   pnpm build
    ```
 7. Open a pull request from your forked repository to the original repository.
 8. Describe your changes in detail in the pull request description (fill in the PR template).
@@ -53,15 +53,11 @@ To set up your development environment after cloning the repository, follow thes
 
 1. Install the necessary dependencies by running:
    ```bash
-   npm install
-   # or
-   yarn install
-   # or
    pnpm install
    ```
 2. Start the development server with:
    ```bash
-   npm run dev
+   pnpm dev
    ```
 3. Open your browser and navigate to `http://localhost:3000` to view the website, and start making changes. The server
    will automatically reload when you make changes to the code, so you can see your updates in real-time.

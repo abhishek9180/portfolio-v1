@@ -115,12 +115,6 @@ To start your development environment locally, after cloning the repository, run
 in the root directory of the project:
 
 ```bash
-npm run dev
-```
-
-or via `pnpm` (recommended):
-
-```bash
 pnpm dev
 ```
 
@@ -131,22 +125,10 @@ the code will automatically reflect in the browser without needing to restart th
 You can also build the project for production using:
 
 ```bash
-npm run build
-```
-
-or via `pnpm`:
-
-```bash
 pnpm build
 ```
 
 And then start the production server with:
-
-```bash
-npm start
-```
-
-or via `pnpm`:
 
 ```bash
 pnpm start
@@ -350,7 +332,7 @@ This project follows best practices for code quality and style:
 - **Modular and reusable** (React) components
 
 > **Note**: To run both prettier and ESLint checks together, you can use the command:
-> `pnpm format-lint` or `pnpm lint-format`.
+> `pnpm format-lint`.
 
 ## ⭐ Star History
 
