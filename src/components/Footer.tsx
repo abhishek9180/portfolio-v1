@@ -83,7 +83,7 @@ export default function Footer() {
           )}
         >
           <Link
-            href={`https://github.com/alemoraru/nextjs-portofolio-website/releases/tag/v${appVersion}`}
+            href={`https://github.com/abhishek9180/portfolio-v1/releases/tag/v${appVersion}`}
             rel="noopener noreferrer"
             className={cn(
               "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md",
@@ -102,11 +102,11 @@ export default function Footer() {
           <span className="text-gray-500 dark:text-gray-500">
             built by{" "}
             <Link
-              href="https://github.com/alemoraru"
+              href="https://github.com/abhishek9180"
               rel="noopener noreferrer"
               className="font-semibold hover:text-accent-500 dark:hover:text-accent-400 transition-colors duration-200"
             >
-              @alemoraru
+              @abhishek9180
             </Link>
           </span>
         </div>
